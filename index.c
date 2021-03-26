@@ -1,13 +1,6 @@
 #include <stdio.h>
 void main() {
-  printf("hello world");
+  printf("hello world \n");
   printf("Hello world from another computer \n");
-  printf("conflict herna");
+  printf("conflict herna lai \n");
 }
-
-
-
-
-
-
-
