@@ -5,6 +5,8 @@ int main()
 	//checking the armstrong number of 3 digits
 	int x, rem, num, n;
 	int result = 0;
+
+	//taking input from the user
 	printf("enter the 3 digit number you wanna check: ");
 	scanf("%d", &n);
 	num = n;
@@ -17,11 +19,11 @@ int main()
 
 	if (result == n)
 	{
-		printf("It is an armstrong number.");
+		printf("It is an armstrong number.\n");
 	}
 	else
 	{
-		printf("It is not an armstrong number.");
+		printf("It is not an armstrong number.\n");
 	}
 
 	return 0;
