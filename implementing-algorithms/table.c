@@ -2,10 +2,12 @@
 
 int main()
 {
-    int n, i;
-    printf("enter the number you want the multiplication of: ");
+    int n, c, i;
+    printf("enter the number you want the multiplication table of: ");
     scanf("%d", &n);
-    for (i = 1; i <= 10; i++)
+    printf("specify up to how many numbers you want the table to show: ");
+    scanf("%d", &c);
+    for (i = 1; i <= c; i++)
     {
         printf("%d*%d = %d\n", n, i, n * i);
     }
