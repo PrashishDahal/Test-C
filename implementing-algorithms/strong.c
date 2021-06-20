@@ -28,4 +28,5 @@ int main(void)
 	{
 		printf("It is not a strong number");
 	}
+	return 0;
 }
